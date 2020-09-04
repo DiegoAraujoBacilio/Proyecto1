@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+
+<body background="Mate2.jpg">
+    <div class="container-fluid bg-dark">
+        <center>
+            <a class="navbar-brand text-light">
+                <h2>Resuelve tus Operaciones Aquí</h2>
+            </a>
+        </center>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="row text-center">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <div style="">
+                <div class="container bg-info">
+                    <h1> Realiza tu Suma </h1>
+                </div>
+                <center>
+                    <div id="suma">
+                        <input class="Diseño" placeholder="Ingresa el Primer Num." id="Numero1" />
+                        <div class="Tamaño">+</div>
+                        <input class="Diseño" placeholder="Ingresa el Segundo Num." id="Numero2" />
+                        <button class="Color" onclick="Suma()">Sumar</button>
+                        <div id="Resultado1"></div>
+                    </div>
+                    <div class="container bg-warning" id="Alerta"></div>
+                </center>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="container bg-info">
+                    <h1>Realiza tu Multiplicacion</h1>
+                </div>
+                <div id="multiplicacion">
+                    <input class="Diseño" placeholder="Ingresa el Primer Num." id="Numero3" />
+                    <div class="Tamaño">x</div>
+                    <input class="Diseño" placeholder="Ingresa el Segundo Num." id="Numero4" />
+                    <button class="Color" onclick="Multiplicacion()">Multiplica</button>
+                    <div id="Resultado2"></div>
+                </div>
+                <div class="container bg-warning" id="Alerta1"></div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div  class="container bg-info">
+                    <h1>Realiza tu Resta</h1>
+                </div>
+                <div id="resta">
+                    <input class="Diseño" placeholder="Ingresa el Primer Num." id="Numero5" />
+                    <div class="Tamaño">-</div>
+                    <input class="Diseño" placeholder="Ingresa el Segundo Num." id="Numero6" />
+                    <button class="Color" onclick="Resta()">Restar</button>
+                    <div id="Resultado3"></div>
+                </div>
+                <div class="container bg-warning" id="Alerta2"></div>
+                <div class="Incorrecto"></div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="container bg-info">
+                    <h1>Realiza tu División</h1>
+                </div>
+                <div id="divicion">
+                    <input class="Diseño" placeholder="Ingresa el Primer Num." id="Numero7" />
+                    <div class="Tamaño">÷</div>
+                    <input class="Diseño" placeholder="Ingresa el Segundo Num." id="Numero8" />
+                    <button class="Color" onclick="Divicion()">Dividir</button>
+                    <div id="Resultado4"></div>
+                </div>
+                <div class="container bg-warning" id="Alerta3"></div>
+            </div>
+            <br>
+            <br>
+            <br>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="./Funciones.js"></script>
+</body>
+
+</html>
